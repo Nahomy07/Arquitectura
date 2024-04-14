@@ -12,11 +12,8 @@ public class App
 
         int menuOp = 0;
         int menuCon = 0;
-        int menuPrin = 0;
-        int eleccion = 0;
-        int Numero = 0;
 
-        
+    
         do {
             menuCon = Integer.parseInt(JOptionPane.showInputDialog("\t\n*************** Menu conversor ***************\n" +
                     "\n1.Binario\n" + "2.Decimal\n" + "3.Octal\n" + "4.Hexadecimal\n" + "5.Salir\n" + "Ingresa una opcion: "));
